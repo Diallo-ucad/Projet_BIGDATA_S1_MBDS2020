@@ -14,6 +14,4 @@ VALEURS_MANQUANTES = {"NaN": ("?", " ", "N/D", "-")}
 VALEURS_CLIENTS_INCORECTES = {"F": ("Féminin", "Femme"), "M": ("Masculin", "Homme"),
                               "Célibataire": ("Seule", "Seul")}
 
-VALEURS_CLIENTS_INCORECTES = {"F": ["Féminin", "Femme"], "M": ["Masculin", "Homme"],
-                              "Célibataire": ["Seule", "Seul"]}
 

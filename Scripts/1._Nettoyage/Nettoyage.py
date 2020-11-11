@@ -2,9 +2,10 @@ import os
 import pandas as pd
 import Donnees
 
-# Chemin de l'enrigistrement des fichiers netoyes
+# Chemin de l'enregistrement des fichiers netoyes
 DOSSIER_DONNEES_P = os.path.realpath("../..").replace('\\', '/') + "/Donnees_Propres/"
 
+# Création du dossier de stockage des données propres si non existant
 try:
     os.mkdir(DOSSIER_DONNEES_P)
 except OSError:
@@ -15,9 +16,12 @@ except OSError:
 # ----------------------------------------------------------------------------
 def nettoyage_catalogue(fichier, valeurs_manquantes, index=False, encoding='latin-1'):
 
+    # Stockage des donnees du fichier dans la variable donnee et remplacement
+    # des valeurs manquantes par "NaN" (reconnue par panda)
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
 
+    # Ecriture des donnees dans un nouveau fichier CSV
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
 
@@ -27,16 +31,21 @@ def nettoyage_catalogue(fichier, valeurs_manquantes, index=False, encoding='lati
 def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
                       index=False, encoding='latin-1'):
 
-    donnees = pd.read_csv(fichier,na_values=valeurs_manquantes["NaN"],
+    donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
-    taille = donnees.shape[0]
 
     colonnes_a_modifier = ["sexe", "situationFamiliale"]
 
-    # print(donnees.where(donnees["sexe"] == "Homme"))
-    # print(donnees[donnees["sexe"] == "Femme"])
+    indices = []
+
+    # Stockage des indices des valeurs à modifier
+    indices += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes["F"])].tolist()
+    indices += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes["M"])].tolist()
+    indices += donnees.index[donnees[colonnes_a_modifier[1]].isin(valeurs_incorrectes["Célibataire"])].tolist()
+
+    # Correction des valeurs
     for colonne in colonnes_a_modifier:
-        for c in range(taille):
+        for c in indices:
             for correction, erreurs in valeurs_incorrectes.items():
                 if donnees[colonne][c] in erreurs:
                     donnees[colonne][c] = correction
@@ -88,6 +97,7 @@ def nettoyage_marketing(fichier, valeurs_manquantes, index=False, encoding='lati
 # Execution des fonctions de nettoyage
 # ----------------------------------------------------------------------------
 def netoyage_donnees():
+
     nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES)
     nettoyage_clients(Donnees.CLIENTS_3, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
     nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
@@ -97,6 +107,11 @@ def netoyage_donnees():
 
 
 if __name__ == "__main__":
+    from time import time
+
+    debut = time()
 
     netoyage_donnees()
 
+    fin = time()
+    print("Temps d'execution : ", fin - debut, "s")
