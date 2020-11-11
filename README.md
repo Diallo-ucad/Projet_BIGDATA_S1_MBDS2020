@@ -1,17 +1,12 @@
-<<<<<<< HEAD
-# Membre du Groupe : DIALLO, SWABAHADINE, ALLAN, SADIO, NITEKA
+# Membre du Groupe : 
 
-# Projet Big Data Analytics : Analyse de la
+- DIALLO, 
+- SWABAHADINE, 
+- ALLAN, 
+- SADIO, 
+- NITEKA
 
-# Clientèle d'un Concessionnaire Automobile
-
-# pour la Recommandation de Modèles de
-
-
-# Véhicules
-=======
 # Projet Big Data Analytics : Analyse de la Clientèle d'un Concessionnaire Automobile pour la Recommandation de Modèles de Véhicules
->>>>>>> 4eb62778c8c1deed6dbee676ab736a3f8ae30f0b
 
 ```
 (Par Nicolas PASQUIER pour la partie Analyse de Données,
@@ -50,7 +45,6 @@ Les fichiers de données à votre disposition vous sont décrits dans les tables
 attribut du fichier, vous sont donnés son nom, son type (numérique, caractères, catégoriel ou booléen)
 sa description et son domaine de valeurs.
 
-A
 Certains attributs peuvent comporter des valeurs manquantes ou incorrectes (erreur de saisie par
 exemple). Celles-ci sont représentées par une cellule vide ou bien contenant une valeur hors du do-
 maine de valeurs de la variable (valeurs «? », « » ou « N/D » par exemple).
@@ -59,7 +53,6 @@ maine de valeurs de la variable (valeurs «? », « » ou « N/D » par exemple)
 Immatriculations.csv : informations sur les immatriculations effectuées cette année
 ```
 **Attribut Type Description Domaine de valeurs**
-A
 
 Immatriculation caractères Numéro unique
 d’immatriculation du véhicule
@@ -105,7 +98,6 @@ Prix numérique Prix de vente en euros [7500, 101300]
 ```
 Catalogue.csv : catalogue de véhicules
 ```
-A
 **Attribut Type Description Domaine de valeurs**
 
 Marque caractères Nom de la marque du véhicule Audi, BMW, Dacia, Daihatsu, Fiat, Ford,
@@ -124,7 +116,6 @@ Maxima 3.0 V6, Almera 1.8, Copper 1.
 canto 1.1, X-Type 2.5 V6, Matrix 1.
 FR-V 1.7, Mondeo 1.8, Croma 2.2,
 Cuore 1.0, Logan 1.6 MPI, M5, 120i, A
-A
 2.0 FSI, A2 1.
 
 Puissance numérique Puissance en chevaux Din [55, 507]
@@ -252,87 +243,10 @@ L’organisation des données se fera comme suit :
 
 Les données doivent être accessibles au niveau de la base SQL via des tables externes et internes.
 Vous répartissez vos données comme vous le souhaitez.
-A
 
 Le chargement des données dans les différentes bases de données doit se faire :
 
 - Via des outils HADOOP tel que SQOOP ou des programmes java ou tout autre utilitaire (pour char-
-<<<<<<< HEAD
-
-## Ha-
-
-## doop
-
-## HIVE
-
-#### HI
-
-#### HDFS
-
-## MongoDB
-
-```
-Langage
-open
-source R
-Ou
-Python
-...
-```
-### HDFS
-
-### Ac-
-
-### cess
-
-### Driver
-
-## HIVE
-
-## Ac-
-
-## cess
-
-## Dri-
-
-## ver
-
-A
-```
-Tables
-externes
-BD SQL
-ORACLE
-12C
-```
-### Une BD NOSQL
-
-A
-### de votre choix
-
-## HDFS
-
-#### HI
-
-#### HDFS
-
-```
-Tables
-internes
-```
-#### SGBDR :
-
-```
-Oracle 12C
-```
-A
-## Da-
-
-## taViz
-
-
-=======
->>>>>>> 4eb62778c8c1deed6dbee676ab736a3f8ae30f0b
 ```
 ger les données dans les bases NoSQL par exemple)
 ```
@@ -345,11 +259,9 @@ demandée par Nicolas PASQUIER et Marco WINCKLER).
 ### Architecture 2 : HDFS HADOOP uniquement sans tables externes
 
 L’architecture HDFS HADOOP qui consiste à accéder aux fichiers directement via le système de fi-
-A
 chiers HADOOP HDFS.
 
 L’Accès aux données pour la Data Visualization et la Data Analyse avec R se fera en accédant direc-
-A
 tement aux fichiers.
 
 Vous devez charger tous vos fichiers dans hadoop hdfs et procéder à la visualisation et à la création de
@@ -384,7 +296,6 @@ o Toute autre information justifiant de votre travail.
 ```
 o Le script de chargement des données dans Hadoop HDFS.
 o Scripts de comparaison des performances entre l’Architecture 1 et l’Architecture 2. Montrer
-A
 ```
 ```
 Langage
@@ -411,7 +322,6 @@ Après avoir construit votre DATA LAKE le Concessionnaire vous appelle et vous f
 nées étaient perdues avant votre intervention – notamment les détails sur l’émission CO2 / le coût d’énergie
 / la valeur de Bonus/Malus pour la taxation par marque et modelé de voiture. Il est possible que ses données
 seraient utiles pour améliorer la qualité de vos modelés prédictives. En cherchant sur Internet vous avez
-A
 trouvé un fichier CO2.csv. C’est une autre base des données qui a certaines informations qui peuvent vous
 aider mais elle n’est pas parfaite. Elle ne contient pas tous les marques et modelés des voitures qui sont
 dans le catalogue du Concessionnaire. De plus le format de stockage est différent (la marque et le modelé
@@ -471,7 +381,6 @@ l’application
 
 ## 4. Analyse des Données par les Techniques de Data Mining, Machine
 
-A
 ## Learning et Deep Learning et Activités Attendues par N. PASQUIER
 
 ## et A. TEMIN (à rendre 4 Janvier 2021)
@@ -510,8 +419,6 @@ dèle définissant les catégories de véhicules généré précédemment.
 4) Fusion des données _Clients_ et _Immatriculations :_
 
 ```
-A
-A
 Les données Clients contiennent les informations sur les clients ayant les véhicules vendus cette
 année. L'objectif est de faire la fusion entre les données des Clients et des Immatriculations afin
 d'obtenir sur une même ligne l'ensemble des informations sur le client (âge, sexe, etc.) et sur le vé-
