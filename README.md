@@ -1,10 +1,4 @@
-# Projet Big Data Analytics : Analyse de la
-
-# Clientèle d'un Concessionnaire Automobile
-
-# pour la Recommandation de Modèles de
-
-# Véhicules
+# Projet Big Data Analytics : Analyse de la Clientèle d'un Concessionnaire Automobile pour la Recommandation de Modèles de Véhicules
 
 ```
 (Par Nicolas PASQUIER pour la partie Analyse de Données,
@@ -246,13 +240,9 @@ Le chargement des données dans les différentes bases de données doit se faire
 
 - Via des outils HADOOP tel que SQOOP ou des programmes java ou tout autre utilitaire (pour char-
 
-## Ha-
-
-## doop
+## Hadoop
 
 ## HIVE
-
-#### HI
 
 #### HDFS
 
