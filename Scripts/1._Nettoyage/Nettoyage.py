@@ -88,12 +88,12 @@ def nettoyage_marketing(fichier, valeurs_manquantes, index=False, encoding='lati
 # Execution des fonctions de nettoyage
 # ----------------------------------------------------------------------------
 def netoyage_donnees():
-    #nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES)
+    nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES)
     nettoyage_clients(Donnees.CLIENTS_3, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
-    #nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
-    #nettoyage_co2(Donnees.CO2, Donnees.VALEURS_MANQUANTES)
-    #nettoyage_immatriculations(Donnees.IMMATRICULATIONS, Donnees.VALEURS_MANQUANTES)
-    #nettoyage_marketing(Donnees.MARKETING, Donnees.VALEURS_MANQUANTES)
+    nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
+    nettoyage_co2(Donnees.CO2, Donnees.VALEURS_MANQUANTES)
+    nettoyage_immatriculations(Donnees.IMMATRICULATIONS, Donnees.VALEURS_MANQUANTES)
+    nettoyage_marketing(Donnees.MARKETING, Donnees.VALEURS_MANQUANTES)
 
 
 if __name__ == "__main__":
