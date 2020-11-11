@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Membre du Groupe : DIALLO, SWABAHADINE, ALLAN, SADIO, NITEKA
 
 # Projet Big Data Analytics : Analyse de la
@@ -8,6 +9,9 @@
 
 
 # Véhicules
+=======
+# Projet Big Data Analytics : Analyse de la Clientèle d'un Concessionnaire Automobile pour la Recommandation de Modèles de Véhicules
+>>>>>>> 4eb62778c8c1deed6dbee676ab736a3f8ae30f0b
 
 ```
 (Par Nicolas PASQUIER pour la partie Analyse de Données,
@@ -253,6 +257,7 @@ A
 Le chargement des données dans les différentes bases de données doit se faire :
 
 - Via des outils HADOOP tel que SQOOP ou des programmes java ou tout autre utilitaire (pour char-
+<<<<<<< HEAD
 
 ## Ha-
 
@@ -326,6 +331,8 @@ A
 ## taViz
 
 
+=======
+>>>>>>> 4eb62778c8c1deed6dbee676ab736a3f8ae30f0b
 ```
 ger les données dans les bases NoSQL par exemple)
 ```
