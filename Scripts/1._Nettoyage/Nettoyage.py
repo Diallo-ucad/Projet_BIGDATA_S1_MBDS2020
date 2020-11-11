@@ -50,6 +50,7 @@ def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
                 if donnees[colonne][c] in erreurs:
                     donnees[colonne][c] = correction
 
+    # Convertion des entiers en int (transformés en float lors de la lecture du fichier)
     donnees["age"] = donnees["age"].astype(dtype=pd.Int64Dtype())
     donnees["taux"] = donnees["taux"].astype(dtype=pd.Int64Dtype())
     donnees["nbEnfantsAcharge"] = donnees["nbEnfantsAcharge"].astype(dtype=pd.Int64Dtype())
