@@ -1,8 +1,14 @@
 # Dossier de données
+<<<<<<< HEAD
 Donnees_Concessionnaire/*
 Donnees_Propres/*
 Data_Brut/*
 
+=======
+Données_Concessionnaire/*
+Données_Propres/*
+Data_Brut/*
+>>>>>>> b5a57f5e7e43a950d007ada972c53ef06ff07fc4
 .idea
 Scripts\1._Nettoyage\.idea
 
