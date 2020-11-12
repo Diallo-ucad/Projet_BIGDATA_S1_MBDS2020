@@ -1,9 +1,12 @@
+#!/usr/bin/python
+# -*- coding: latin-1 -*-
+
 import os
 import pandas as pd
 import Donnees
 
 # Chemin de l'enregistrement des fichiers netoyes
-DOSSIER_DONNEES_P = os.path.realpath("../..").replace('\\', '/') + "/Donnees_Propres/"
+DOSSIER_DONNEES_P = os.path.realpath("..").replace('\\', '/') + "/Donnees_Propres/"
 
 # Création du dossier de stockage des données propres si non existant
 try:
@@ -36,19 +39,22 @@ def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
 
     colonnes_a_modifier = ["sexe", "situationFamiliale"]
 
-    indices = []
+    indices_sexe = []
+    indices_situationFamiliale = []
 
     # Stockage des indices des valeurs à modifier
-    indices += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes["F"])].tolist()
-    indices += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes["M"])].tolist()
-    indices += donnees.index[donnees[colonnes_a_modifier[1]].isin(valeurs_incorrectes["Célibataire"])].tolist()
+    indices_sexe += donnees.index[donnees[colonnes_a_modifier[0]].isin(("Féminin", "Femme"))].tolist()
+    indices_sexe += donnees.index[donnees[colonnes_a_modifier[0]].isin(("Masculin", "Homme"))].tolist()
+    indices_situationFamiliale += donnees.index[donnees[colonnes_a_modifier[1]].isin(("Seule", "Seul"))].tolist()
+
+    indices = {"sexe" : indices_sexe, "situationFamiliale": indices_situationFamiliale}
 
     # Correction des valeurs
-    for colonne in colonnes_a_modifier:
-        for c in indices:
-            for correction, erreurs in valeurs_incorrectes.items():
-                if donnees[colonne][c] in erreurs:
-                    donnees[colonne][c] = correction
+    for colonne in colonnes_a_modifier:  
+        for c in indices[colonne]:
+            k = donnees[colonne][c]
+            donnees.at[c, colonne] = valeurs_incorrectes[k]
+         
 
     # Convertion des entiers en int (transformés en float lors de la lecture du fichier)
     donnees["age"] = donnees["age"].astype(dtype=pd.Int64Dtype())
@@ -67,7 +73,7 @@ def nettoyage_co2(fichier, valeurs_manquantes, index=False, encoding='utf16'):
     donnees = pd.read_csv(fichier, index_col=[0],
                           na_values=valeurs_manquantes["NaN"])
 
-    # Encodage en utf16 pour les caractères non reconnu
+    # Encodage en utf16 pour les caracteres non reconnu
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
 
@@ -94,25 +100,40 @@ def nettoyage_marketing(fichier, valeurs_manquantes, index=False, encoding='lati
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
 
-
+def showTime(debut, fin):
+    print("Temps d'execution : ", fin - debut, "s")
+    return 
 # Execution des fonctions de nettoyage
 # ----------------------------------------------------------------------------
-def netoyage_donnees():
-
+def netoyage_donnees(d):
+    print("nettoyage catalogue")
+    showTime(d, time())
     nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES)
+
+    print("nettoyage clients 3")
+    showTime(d, time())
     nettoyage_clients(Donnees.CLIENTS_3, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
+
+    print("nettoyage clients 11")
+    showTime(d, time())
     nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
+    
+    print("nettoyage co2")
+    showTime(d, time())Donnees_Brut
     nettoyage_co2(Donnees.CO2, Donnees.VALEURS_MANQUANTES)
+    
+    print("nettoyage immatriculations")
+    showTime(d, time())
     nettoyage_immatriculations(Donnees.IMMATRICULATIONS, Donnees.VALEURS_MANQUANTES)
+    
+    print("nettoyage marketing")
+    showTime(d, time())
     nettoyage_marketing(Donnees.MARKETING, Donnees.VALEURS_MANQUANTES)
 
 
 if __name__ == "__main__":
     from time import time
-
+    print "debut nettoyage"
     debut = time()
-
-    netoyage_donnees()
-
-    fin = time()
-    print("Temps d'execution : ", fin - debut, "s")
+    netoyage_donnees(debut)
+    showTime(debut, time())
