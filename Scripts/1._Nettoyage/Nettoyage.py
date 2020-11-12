@@ -101,34 +101,34 @@ def nettoyage_marketing(fichier, valeurs_manquantes, index=False, encoding='lati
                    encoding=encoding)
 
 def showTime(debut, fin):
-    print("Temps d'execution : ", fin - debut, "s")
-    return 
+    print "Temps d'execution : " + str(fin - debut) + " s" 
+    return fin
 # Execution des fonctions de nettoyage
 # ----------------------------------------------------------------------------
 def netoyage_donnees(d):
-    print("nettoyage catalogue")
-    showTime(d, time())
+    print("\nnettoyage catalogue")
     nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES)
+    d1 = showTime(d, time())
 
-    print("nettoyage clients 3")
-    showTime(d, time())
+    print("\nnettoyage clients 3")
     nettoyage_clients(Donnees.CLIENTS_3, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
+    d2 = showTime(d1, time())
 
-    print("nettoyage clients 11")
-    showTime(d, time())
+    print("\nnettoyage clients 11")
     nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
-    
-    print("nettoyage co2")
-    showTime(d, time())Donnees_Brut
+    d3 = showTime(d2, time())
+
+    print("\nnettoyage co2")
     nettoyage_co2(Donnees.CO2, Donnees.VALEURS_MANQUANTES)
-    
-    print("nettoyage immatriculations")
-    showTime(d, time())
+    d4 = showTime(d3, time())
+
+    print("\nnettoyage immatriculations")
     nettoyage_immatriculations(Donnees.IMMATRICULATIONS, Donnees.VALEURS_MANQUANTES)
-    
-    print("nettoyage marketing")
-    showTime(d, time())
+    d5 = showTime(d4, time())
+
+    print("\nnettoyage marketing")
     nettoyage_marketing(Donnees.MARKETING, Donnees.VALEURS_MANQUANTES)
+    showTime(d5, time())
 
 
 if __name__ == "__main__":
@@ -136,4 +136,5 @@ if __name__ == "__main__":
     print "debut nettoyage"
     debut = time()
     netoyage_donnees(debut)
+    print "\nfin nettoyage"
     showTime(debut, time())
