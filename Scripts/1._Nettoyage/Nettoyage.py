@@ -101,7 +101,7 @@ def nettoyage_marketing(fichier, valeurs_manquantes, index=False, encoding='lati
                    encoding=encoding)
 
 def showTime(debut, fin):
-    print "Temps d'execution : " + str(fin - debut) + " s" 
+    print ("Temps d'execution : " + str(fin - debut) + " s") 
     return fin
 # Execution des fonctions de nettoyage
 # ----------------------------------------------------------------------------
@@ -133,8 +133,8 @@ def netoyage_donnees(d):
 
 if __name__ == "__main__":
     from time import time
-    print "debut nettoyage"
+    print ("debut nettoyage")
     debut = time()
     netoyage_donnees(debut)
-    print "\nfin nettoyage"
+    print ("\nfin nettoyage")
     showTime(debut, time())
