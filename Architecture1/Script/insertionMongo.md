@@ -1,0 +1,1 @@
+mongoimport --host=tpambdsg4client11-shard-00-02.m7r9v.mongodb.net:27017 --db=sample_client11 --collection=client11_test_swb --type=csv --file=Clients_3.csv --authenticationDatabase=admin --ssl --username=tpambdsg4 --password=DIALLO2B2001 --headerline
