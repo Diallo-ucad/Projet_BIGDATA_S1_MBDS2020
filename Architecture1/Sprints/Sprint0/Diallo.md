@@ -20,16 +20,6 @@
         se connecter sur le cluster + sample_client11 + Documents + ADD DATA + Import file + choisir le fichier client11.csv
     -MongoDB shell
         mongoimport --host=tpambdsg4client11-shard-00-02.m7r9v.mongodb.net:27017 --db=sample_client11 --collection=client11 --type=csv --file=Clients_3.csv --authenticationDatabase=admin --ssl --username=tpambdsg4 --password=DIALLO2B2001 --headerline
+
         
-        
 
-
-    
-
-   
-
-
-
-## 1- Connection à la base en SSH
-    IP address: 134.59.152.111
-    Port: 443
