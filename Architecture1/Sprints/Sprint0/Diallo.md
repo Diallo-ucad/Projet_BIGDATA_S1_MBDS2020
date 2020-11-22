@@ -1,4 +1,7 @@
 ## Choix et Utilisation d'Atlas MongoDB (Solution cloud)
+# Pourquoi ce choix: 
+    Alternative de MongoDB, Atlas MongoDB est une solution multi-cloud pour MongoDB adapté pour équipe agiles et facile d'utilisation disponible sur les plateformes AWS, Google Cloud et Azure.
+    Nous l'avons choisi car il donne éfficacement une solution d'utilisation du cluster à distance très adapté pour la mise en place de notre lac de données.
 # Installations effectuées: 
     -Mongo shell
     -MongoDB Compass
