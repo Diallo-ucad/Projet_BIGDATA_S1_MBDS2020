@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding: latin-1 -*-
 
 import os
 import pandas as pd
@@ -8,7 +6,7 @@ import Donnees
 # Chemin de l'enregistrement des fichiers netoyes
 DOSSIER_DONNEES_P = os.path.realpath("..").replace('\\', '/') + "/Donnees_Propres/"
 
-# Création du dossier de stockage des données propres si non existant
+# Creation du dossier de stockage des donnees propres si non existant
 try:
     os.mkdir(DOSSIER_DONNEES_P)
 except OSError:
@@ -17,12 +15,20 @@ except OSError:
 
 # Netoyage du fichier Catalogue.csv
 # ----------------------------------------------------------------------------
-def nettoyage_catalogue(fichier, valeurs_manquantes, index=False, encoding='latin-1'):
+def nettoyage_catalogue(fichier, valeurs_manquantes, valeurs_incorrectes, index=False, encoding='latin-1'):
 
     # Stockage des donnees du fichier dans la variable donnee et remplacement
     # des valeurs manquantes par "NaN" (reconnue par panda)
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
+
+    colonne_a_modifier = "longueur"
+    indices_longueur = donnees.index[donnees[colonne_a_modifier].isin(valeurs_incorrectes.get_key("tres longue"))].tolist()
+
+    # Correction des valeurs
+    for c in indices_longueur:
+        k = donnees[colonne_a_modifier][c]
+        donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
 
     # Ecriture des donnees dans un nouveau fichier CSV
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
@@ -37,26 +43,29 @@ def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
 
+    # Renommage colonne "2eme voiture" en "deuxieme_voiture"
+    donnees = donnees.rename(columns={"2eme voiture": "DeuxiemeVoiture"})
+
     colonnes_a_modifier = ["sexe", "situationFamiliale"]
 
     indices_sexe = []
     indices_situationFamiliale = []
 
-    # Stockage des indices des valeurs à modifier
-    indices_sexe += donnees.index[donnees[colonnes_a_modifier[0]].isin(("Féminin", "Femme"))].tolist()
-    indices_sexe += donnees.index[donnees[colonnes_a_modifier[0]].isin(("Masculin", "Homme"))].tolist()
-    indices_situationFamiliale += donnees.index[donnees[colonnes_a_modifier[1]].isin(("Seule", "Seul"))].tolist()
+    # Stockage des indices des valeurs a modifier
+    indices_sexe += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes.get_key("F"))].tolist()
+    indices_sexe += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes.get_key("M"))].tolist()
+    indices_situationFamiliale += donnees.index[donnees[colonnes_a_modifier[1]].isin(valeurs_incorrectes.get_key("Celibataire"))].tolist()
+    indices_situationFamiliale += donnees.index[donnees[colonnes_a_modifier[1]].isin(valeurs_incorrectes.get_key("Divorce"))].tolist()
+    indices_situationFamiliale += donnees.index[donnees[colonnes_a_modifier[1]].isin(valeurs_incorrectes.get_key("Marie"))].tolist()
 
-    indices = {"sexe" : indices_sexe, "situationFamiliale": indices_situationFamiliale}
+    indices = {colonnes_a_modifier[0]: indices_sexe, colonnes_a_modifier[1]: indices_situationFamiliale}
 
-    # Correction des valeurs
-    for colonne in colonnes_a_modifier:  
+    for colonne in colonnes_a_modifier:
         for c in indices[colonne]:
             k = donnees[colonne][c]
             donnees.at[c, colonne] = valeurs_incorrectes[k]
-         
 
-    # Convertion des entiers en int (transformés en float lors de la lecture du fichier)
+    # Convertion des entiers en int (transformee en float lors de la lecture du fichier)
     donnees["age"] = donnees["age"].astype(dtype=pd.Int64Dtype())
     donnees["taux"] = donnees["taux"].astype(dtype=pd.Int64Dtype())
     donnees["nbEnfantsAcharge"] = donnees["nbEnfantsAcharge"].astype(dtype=pd.Int64Dtype())
@@ -80,11 +89,19 @@ def nettoyage_co2(fichier, valeurs_manquantes, index=False, encoding='utf16'):
 
 # Netoyage du fichier Immatriculations.csv
 # ----------------------------------------------------------------------------
-def nettoyage_immatriculations(fichier, valeurs_manquantes, index=False,
+def nettoyage_immatriculations(fichier, valeurs_manquantes, valeurs_incorrectes, index=False,
                                encoding='latin-1'):
 
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
+
+    colonne_a_modifier = "longueur"
+    indices_longueur = donnees.index[donnees[colonne_a_modifier].isin(valeurs_incorrectes.get_key("tres longue"))]\
+        .tolist()
+
+    for c in indices_longueur:
+        k = donnees[colonne_a_modifier][c]
+        donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
 
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
@@ -92,49 +109,65 @@ def nettoyage_immatriculations(fichier, valeurs_manquantes, index=False,
 
 # Netoyage du fichier Marketing.csv
 # ----------------------------------------------------------------------------
-def nettoyage_marketing(fichier, valeurs_manquantes, index=False, encoding='latin-1'):
+def nettoyage_marketing(fichier, valeurs_manquantes, valeurs_incorrectes,
+                        index=False, encoding='latin-1'):
 
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
 
+    donnees = donnees.rename(columns={"2eme voiture": "DeuxiemeVoiture"})
+
+    colonne_a_modifier = "situationFamiliale"
+
+    indices_situationFamiliale = donnees.index[donnees[colonne_a_modifier].isin(valeurs_incorrectes.get_key("Celibataire"))].tolist()
+
+    for c in indices_situationFamiliale:
+        k = donnees[colonne_a_modifier][c]
+        donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
+
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
 
-def showTime(debut, fin):
-    print("Temps d'execution : " + str(fin - debut) + " s")
+
+def show_time(deb, fin):
+    print("Temps d execution : " + str(fin - deb) + " s")
+
     return fin
+
+
 # Execution des fonctions de nettoyage
 # ----------------------------------------------------------------------------
 def netoyage_donnees(d):
     print("\nnettoyage catalogue")
-    nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES)
-    d1 = showTime(d, time())
+    nettoyage_catalogue(Donnees.CATALOGUE, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORRECTES)
+    d1 = show_time(d, time())
 
     print("\nnettoyage clients 3")
-    nettoyage_clients(Donnees.CLIENTS_3, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
-    d2 = showTime(d1, time())
+    nettoyage_clients(Donnees.CLIENTS_3, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORRECTES)
+    d2 = show_time(d1, time())
 
     print("\nnettoyage clients 11")
-    nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORECTES)
-    d3 = showTime(d2, time())
+    nettoyage_clients(Donnees.CLIENTS_11, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORRECTES)
+    d3 = show_time(d2, time())
 
     print("\nnettoyage co2")
     nettoyage_co2(Donnees.CO2, Donnees.VALEURS_MANQUANTES)
-    d4 = showTime(d3, time())
+    d4 = show_time(d3, time())
 
     print("\nnettoyage immatriculations")
-    nettoyage_immatriculations(Donnees.IMMATRICULATIONS, Donnees.VALEURS_MANQUANTES)
-    d5 = showTime(d4, time())
+    nettoyage_immatriculations(Donnees.IMMATRICULATIONS, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORRECTES)
+    d5 = show_time(d4, time())
 
     print("\nnettoyage marketing")
-    nettoyage_marketing(Donnees.MARKETING, Donnees.VALEURS_MANQUANTES)
-    showTime(d5, time())
+    nettoyage_marketing(Donnees.MARKETING, Donnees.VALEURS_MANQUANTES, Donnees.VALEURS_CLIENTS_INCORRECTES)
+    show_time(d5, time())
 
 
 if __name__ == "__main__":
     from time import time
-    print("debut nettoyage")
+
+    print("Debut nettoyage")
     debut = time()
     netoyage_donnees(debut)
-    print("\nfin nettoyage")
-    showTime(debut, time())
+    print("\nFin nettoyage")
+    show_time(debut, time())

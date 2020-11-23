@@ -4,7 +4,6 @@ Donnees_Propres/*
 #Donnees_Brut/*
 
 .idea
-Scripts\1._Nettoyage\.idea
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
