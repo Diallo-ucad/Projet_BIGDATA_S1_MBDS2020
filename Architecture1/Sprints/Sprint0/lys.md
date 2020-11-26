@@ -35,13 +35,13 @@ Dans le 2ème terminal
 Lancer la commande
 sql> CREATE TABLE CLIENTS_3_Groupe4 
 (
-    age                     number(3), 
-    sexe                     varchar2(2),
+    age                     number(5), 
+    sexe                     varchar2(3),
     taux                     number(6),
-    situationFamiliale     varchar2(10), 
-    nbEnfantsAcharge         number(3),
+    situationFamiliale     varchar2(30), 
+    nbEnfantsAcharge         number(10),
     deuxiemeVoiture     varchar2(5),
-    immatriculation         varchar2(20)
+    immatriculation         varchar2(30)
 );
 
 
