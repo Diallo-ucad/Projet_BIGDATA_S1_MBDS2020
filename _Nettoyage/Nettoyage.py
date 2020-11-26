@@ -21,6 +21,7 @@ def nettoyage_catalogue(fichier, valeurs_manquantes, valeurs_incorrectes, index=
     # des valeurs manquantes par "NaN" (reconnue par panda)
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
+    donnees = donnees.dropna()
 
     colonne_a_modifier = "longueur"
     indices_longueur = donnees.index[donnees[colonne_a_modifier].isin(valeurs_incorrectes.get_key("tres longue"))].tolist()
@@ -45,6 +46,7 @@ def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
 
     # Renommage colonne "2eme voiture" en "deuxieme_voiture"
     donnees = donnees.rename(columns={"2eme voiture": "deuxiemeVoiture"})
+    donnees = donnees.dropna()
 
     colonnes_a_modifier = ["sexe", "situationFamiliale"]
 
@@ -82,6 +84,8 @@ def nettoyage_co2(fichier, valeurs_manquantes, index=False, encoding='utf16'):
     donnees = pd.read_csv(fichier, index_col=[0],
                           na_values=valeurs_manquantes["NaN"])
 
+    donnees = donnees.dropna()
+
     # Encodage en utf16 pour les caracteres non reconnu
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
@@ -95,10 +99,13 @@ def nettoyage_immatriculations(fichier, valeurs_manquantes, valeurs_incorrectes,
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
 
+    donnees = donnees.dropna()
+
     colonne_a_modifier = "longueur"
     indices_longueur = donnees.index[donnees[colonne_a_modifier].isin(valeurs_incorrectes.get_key("tres longue"))]\
         .tolist()
 
+    donnees.dropna()
     for c in indices_longueur:
         k = donnees[colonne_a_modifier][c]
         donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
