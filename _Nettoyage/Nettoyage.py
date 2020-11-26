@@ -44,7 +44,7 @@ def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
                           encoding=encoding)
 
     # Renommage colonne "2eme voiture" en "deuxieme_voiture"
-    donnees = donnees.rename(columns={"2eme voiture": "DeuxiemeVoiture"})
+    donnees = donnees.rename(columns={"2eme voiture": "deuxiemeVoiture"})
 
     colonnes_a_modifier = ["sexe", "situationFamiliale"]
 
@@ -115,7 +115,7 @@ def nettoyage_marketing(fichier, valeurs_manquantes, valeurs_incorrectes,
     donnees = pd.read_csv(fichier, na_values=valeurs_manquantes["NaN"],
                           encoding=encoding)
 
-    donnees = donnees.rename(columns={"2eme voiture": "DeuxiemeVoiture"})
+    donnees = donnees.rename(columns={"2eme voiture": "deuxiemeVoiture"})
 
     colonne_a_modifier = "situationFamiliale"
 

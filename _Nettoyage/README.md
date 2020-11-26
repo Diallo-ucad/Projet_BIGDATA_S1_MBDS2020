@@ -22,7 +22,7 @@ dans un répertoire nommé "Donnes_Propres".
     - Colonne "longuer" : très longue                           -> tres longue
 
 #### Clients_n.csv
-    - Renommage nom de colonne "2eme voiture" en "DeuxiemeVoiture"
+    - Renommage nom de colonne "2eme voiture" en "deuxiemeVoiture"
     
     - Colonne "Sexe" :               [Féminin, Femme]           -> F
                                      [Masculin, Homme]          -> M
