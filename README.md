@@ -17,7 +17,7 @@ Chaque architecture est composée de :
 Recommandation pour la visuaisation des données : [VSCode](https://code.visualstudio.com/) + plugin [Excel Viewer](https://marketplace.visualstudio.com/items?itemName=GrapeCity.gc-excelviewer).
 
 ## Les différents répertoires
--   [_Nettoyage](_Nettoyage) : Avant de manipuler les données dans les architectures, on doit dabord les néttoyer.
+-   [Nettoyage](Nettoyage) : Avant de manipuler les données dans les architectures, on doit dabord les néttoyer.
 lancer le script sh:
     -   sh _Nettoyage/script_1_init.sh
 
