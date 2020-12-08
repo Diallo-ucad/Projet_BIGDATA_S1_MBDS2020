@@ -23,13 +23,19 @@ def nettoyage_catalogue(fichier, valeurs_manquantes, valeurs_incorrectes, index=
                           encoding=encoding)
     donnees = donnees.dropna()
 
-    colonne_a_modifier = "longueur"
-    indices_longueur = donnees.index[donnees[colonne_a_modifier].isin(valeurs_incorrectes.get_key("tres longue"))].tolist()
+    colonnes_a_modifier = ["longueur", "marque"]
+    indices_longueur = []
+    indice_hyundai = []
+    indices_longueur += donnees.index[donnees[colonnes_a_modifier[0]].isin(valeurs_incorrectes.get_key("tres longue"))].tolist()
+    indice_hyundai += donnees.index[donnees[colonnes_a_modifier[1]].isin(valeurs_incorrectes.get_key("Hyundai"))].tolist()
+
+    indices = {colonnes_a_modifier[0]: indices_longueur, colonnes_a_modifier[1]: indice_hyundai}
 
     # Correction des valeurs
-    for c in indices_longueur:
-        k = donnees[colonne_a_modifier][c]
-        donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
+    for colonne in colonnes_a_modifier:
+        for c in indices[colonne]:
+            k = donnees[colonne][c]
+            donnees.at[c, colonne] = valeurs_incorrectes[k]
 
     # Ecriture des donnees dans un nouveau fichier CSV
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,

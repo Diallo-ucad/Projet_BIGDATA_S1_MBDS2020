@@ -27,3 +27,4 @@ VALEURS_CLIENTS_INCORRECTES.keylist(["Seule", "Seul", "Célibataire"], "Celibata
 VALEURS_CLIENTS_INCORRECTES.keylist(["Divorcée"], "Divorce")
 VALEURS_CLIENTS_INCORRECTES.keylist(["Marié(e)"], "Marie")
 VALEURS_CLIENTS_INCORRECTES.keylist(["très longue"], "tres longue")
+VALEURS_CLIENTS_INCORRECTES.keylist(["Hyundaï"], "Hyundai")
