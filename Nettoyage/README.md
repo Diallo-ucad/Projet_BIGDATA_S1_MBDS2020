@@ -9,7 +9,7 @@ la manipulation de données étiquetée par des colonnes et des lignes.
 Dans un shell : 
 -   sh script_1_init.sh
 
-Ce scipt permettra l'installation de bibliothèques Python nécessaires
+Ce script permettra l'installation de bibliothèques Python nécessaires
 au néttoyage, de dézipper les fichiers de données à nettoyer se trouvant
 dans le répertoire "Donnee_Brut" et de créer les nouveaux fichiers nétoyés
 dans un répertoire nommé "Donnes_Propres".
