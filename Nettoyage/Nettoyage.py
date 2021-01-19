@@ -37,6 +37,9 @@ def nettoyage_catalogue(fichier, valeurs_manquantes, valeurs_incorrectes, index=
             k = donnees[colonne][c]
             donnees.at[c, colonne] = valeurs_incorrectes[k]
 
+    # Suppression doublons
+    donnees = donnees.drop_duplicates()
+
     # Ecriture des donnees dans un nouveau fichier CSV
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
@@ -78,6 +81,7 @@ def nettoyage_clients(fichier, valeurs_manquantes, valeurs_incorrectes,
     donnees["taux"] = donnees["taux"].astype(dtype=pd.Int64Dtype())
     donnees["nbEnfantsAcharge"] = donnees["nbEnfantsAcharge"].astype(dtype=pd.Int64Dtype())
 
+    donnees = donnees.drop_duplicates()
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
 
@@ -91,6 +95,8 @@ def nettoyage_co2(fichier, valeurs_manquantes, index=False, encoding='utf16'):
                           na_values=valeurs_manquantes["NaN"])
 
     donnees = donnees.dropna()
+
+    donnees = donnees.drop_duplicates()
 
     # Encodage en utf16 pour les caracteres non reconnu
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
@@ -116,6 +122,8 @@ def nettoyage_immatriculations(fichier, valeurs_manquantes, valeurs_incorrectes,
         k = donnees[colonne_a_modifier][c]
         donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
 
+    donnees = donnees.drop_duplicates()
+
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
 
@@ -137,6 +145,9 @@ def nettoyage_marketing(fichier, valeurs_manquantes, valeurs_incorrectes,
     for c in indices_situationFamiliale:
         k = donnees[colonne_a_modifier][c]
         donnees.at[c, colonne_a_modifier] = valeurs_incorrectes[k]
+
+
+    donnees = donnees.drop_duplicates()
 
     donnees.to_csv(DOSSIER_DONNEES_P + fichier.split("/")[-1], index=index,
                    encoding=encoding)
