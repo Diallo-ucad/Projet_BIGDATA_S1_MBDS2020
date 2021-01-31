@@ -4,7 +4,21 @@ library(tidyverse)
 library(scales)
 library(RColorBrewer)
 library(jsonlite)
+library(RODBC)
+library(ssh)
 
+#session <- ssh_connect("diallo@134.59.152.111:443")
+#MDP <- "etuMia07NoSqlèè"
+
+#channel <- odbcConnect("DBCOURS.UNEPH.HT", uid="DIALLO2B20", pwd="DIALLO2B2001")
+
+#dataframe <- sqlQuery(channel, "
+# SELECT *
+# FROM
+# IMMATRICULATION_Groupe4")
+#dataframe
+
+#odbcClose(channel)
 
 # Importation des fichiers nécessaires
 # ==============================================================================

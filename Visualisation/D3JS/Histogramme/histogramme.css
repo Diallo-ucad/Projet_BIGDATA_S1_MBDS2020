@@ -1,0 +1,12 @@
+.rectangle {
+    fill: red;
+    display: block;
+    stroke: #000;
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #ccc;
+    z-index: 1000;
+    display: none;
+}

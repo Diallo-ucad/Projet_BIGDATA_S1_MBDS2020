@@ -130,6 +130,21 @@ d3.json("Ligne - Prix Moyen Total Marque.json", function(data) {
         update(selectedOption);
     });
 
+    svg.append("text")
+        .attr("transform",
+            "translate(" + (width / 2) + " ," +
+            (height + margin.top + 20) + ")")
+        .style("text-anchor", "middle")
+        .text("Age");
+
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x", 0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text("Prix Moyens");
+
     // Add the line
     svg
         .append("path")
