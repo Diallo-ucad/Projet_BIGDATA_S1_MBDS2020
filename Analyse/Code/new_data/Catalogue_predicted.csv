@@ -1,0 +1,62 @@
+marque,nom,puissance,longueur,nbPlaces,nbPortes,occasion,prix,type,predicted
+Volvo,S80 T6,272,0,5,5,False,50500,Berline 5 portes,3
+Volvo,S80 T6,272,0,5,5,True,35350,Berline 5 portes,3
+Volkswagen,Touran 2.0 FSI,150,1,7,5,False,27340,Monospaces,0
+Volkswagen,Touran 2.0 FSI,150,1,7,5,True,19138,Monospaces,0
+Volkswagen,Polo 1.2 6V,55,2,5,3,True,8540,Berline 3 portes,2
+Volkswagen,Polo 1.2 6V,55,2,5,3,False,12200,Berline 3 portes,2
+Volkswagen,New Beatle 1.8,110,3,5,5,True,18641,Berline 3 portes,0
+Volkswagen,New Beatle 1.8,110,3,5,5,True,18641,Berline 5 portes,0
+Volkswagen,New Beatle 1.8,110,3,5,5,False,26630,Berline 5 portes,0
+Volkswagen,Golf 2.0 FSI,150,3,5,5,True,16029,Berline 5 portes,0
+Volkswagen,Golf 2.0 FSI,150,3,5,5,True,16029,Berline 5 portes,3
+Volkswagen,Golf 2.0 FSI,150,3,5,5,False,22900,Berline 5 portes,0
+Volkswagen,Golf 2.0 FSI,150,3,5,5,False,22900,Berline 5 portes,3
+Skoda,Superb 2.8 V6,193,0,5,5,False,31790,Berline 5 portes,0
+Seat,Toledo 1.6,102,1,5,5,False,18880,Berline 5 portes,2
+Saab,9.3 1.8T,150,1,5,5,True,27020,Berline 5 portes,3
+Saab,9.3 1.8T,150,1,5,5,False,38600,Berline 5 portes,3
+Renault,Vel Satis 3.5 V6,245,0,5,5,True,34440,Berline 5 portes,3
+Renault,Vel Satis 3.5 V6,245,0,5,5,False,49200,Berline 5 portes,3
+Renault,Megane 2.0 16V,135,3,5,5,True,15644,Berline Compacte,0
+Renault,Megane 2.0 16V,135,3,5,5,False,22350,Berline Compacte,0
+Renault,Laguna 2.0T,170,1,5,5,True,19110,Berline 5 portes,0
+Renault,Laguna 2.0T,170,1,5,5,False,27300,Berline 5 portes,0
+Renault,Espace 2.0T,165,1,7,5,True,21245,Monospaces,0
+Renault,Espace 2.0T,165,1,7,5,False,30350,Monospaces,0
+Peugeot,1007 1.4,75,2,5,5,True,9625,Monospaces,2
+Peugeot,1007 1.4,75,2,5,5,False,13750,Monospaces,2
+Nissan,Primera 1.6,109,1,5,5,False,18650,Berline 5 portes,2
+Nissan,Maxima 3.0 V6,200,0,5,5,False,30000,Berline 5 portes,0
+Nissan,Almera 1.8,115,3,5,5,False,16450,Berline 5 portes,2
+Mini,Copper 1.6 16V,115,2,5,5,True,12740,Berline 5 portes,2
+Mini,Copper 1.6 16V,115,2,5,5,False,18200,Berline 5 portes,2
+Mercedes,S500,306,0,5,5,True,70910,Limousine,1
+Mercedes,S500,306,0,5,5,False,101300,Limousine,1
+Mercedes,A200,136,3,5,5,False,25900,Berline 5 portes,0
+Mercedes,A200,136,3,5,5,True,18130,Berline 5 portes,0
+Lancia,Ypsilon 1.4 16V,90,2,5,3,False,13500,Berline 5 portes,2
+Lancia,Ypsilon 1.4 16V,90,2,5,3,True,9450,Berline 5 portes,2
+Kia,Picanto 1.1,65,2,5,5,False,8990,Citadines,2
+Jaguar,X-Type 2.5 V6,197,1,5,5,False,37100,Berline 5 portes,3
+Jaguar,X-Type 2.5 V6,197,1,5,5,True,25970,Berline 5 portes,3
+Hyundai,Matrix 1.6,103,1,7,5,False,15960,Monospaces,2
+Honda,FR-V 1.7,125,1,7,5,False,19550,Monospaces,2
+Ford,Mondeo 1.8,125,1,5,5,True,16730,Berline 5 portes,0
+Ford,Mondeo 1.8,125,1,5,5,False,23900,Berline 5 portes,0
+Fiat,Croma 2.2,147,1,5,5,True,17346,Berline 5 portes,0
+Fiat,Croma 2.2,147,1,5,5,False,24780,Berline 5 portes,0
+Daihatsu,Cuore 1.0,58,2,5,3,False,8850,Citadines,2
+Dacia,Logan 1.6 MPI,90,3,5,5,False,7500,Break,2
+BMW,M5,507,0,5,5,True,66360,Sport,1
+BMW,M5,507,0,5,5,False,94800,Sport,1
+BMW,120i,150,3,5,5,True,25060,Berline 5 portes,0
+BMW,120i,150,3,5,5,True,25060,Berline 5 portes,3
+BMW,120i,150,3,5,5,False,35800,Berline 5 portes,0
+BMW,120i,150,3,5,5,False,35800,Berline 5 portes,3
+Audi,A3 2.0 FSI,150,3,5,5,True,19950,Berline 5 portes,0
+Audi,A3 2.0 FSI,150,3,5,5,True,19950,Berline 5 portes,3
+Audi,A3 2.0 FSI,150,3,5,5,False,28500,Berline 5 portes,0
+Audi,A3 2.0 FSI,150,3,5,5,False,28500,Berline 5 portes,3
+Audi,A2 1.4,75,2,5,5,True,12817,Berline 5 portes,2
+Audi,A2 1.4,75,2,5,5,False,18310,Berline 5 portes,2

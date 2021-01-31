@@ -1,0 +1,35 @@
+marque,nom,puissance,nbPlaces,Type
+Volvo,S80 T6,272,5,berline 5 portes
+Volkswagen,Touran 2.0 FSI,150,7,Monospaces
+Volkswagen,Polo 1.2 6V,55,5,Berline 3 portes
+Volkswagen,New Beatle 1.8,110,5,Berline 3 portes
+Volkswagen,New Beatle 1.8,110,5,Berline 5 portes
+Volkswagen,Golf 2.0 FSI,150,5,Berline 5 portes
+Skoda,Superb 2.8 V6,193,5,Berline 5 portes
+Seat,Toledo 1.6,102,5,Berline 5 portes
+Saab,9.3 1.8T,150,5,Berline 5 portes
+Renault,Vel Satis 3.5 V6,245,5,Berline 5 portes
+Renault,Megane 2.0 16V,135,5,Sport
+Renault,Laguna 2.0T,170,5,Berline 5 portes
+Renault,Espace 2.0T,165,7,Monospaces
+Peugeot,1007 1.4,75,5,Monospaces
+Nissan,Primera 1.6,109,5,Berline 5 portes
+Nissan,Maxima 3.0 V6,200,5,Berline 5 portes
+Nissan,Almera 1.8,115,5,Berline 5 portes
+Mini,Copper 1.6 16V,115,5,Berline 5 portes
+Mercedes,S500,306,5,Limousine
+Mercedes,A200,136,5,Berline 5 portes
+Lancia,Ypsilon 1.4 16V,90,5,Berline 5 portes
+Kia,Picanto 1.1,65,5,Citadines
+Jaguar,X-Type 2.5 V6,197,5,Citadines
+Jaguar,X-Type 2.5 V6,197,5,Berline 5 portes
+Hyundai,Matrix 1.6,103,7,Monospaces
+Honda,FR-V 1.7,125,7,Monospaces
+Ford,Mondeo 1.8,125,5,Berline 5 portes
+Fiat,Croma 2.2,147,5,Berline 5 portes
+Daihatsu,Cuore 1.0,58,5,Citadines
+Dacia,Logan 1.6 MPI,90,5,Break
+BMW,M5,507,5,Sport
+BMW,120i,150,5,Berline 5 portes
+Audi,A3 2.0 FSI,150,5,Berline 5 portes
+Audi,A2 1.4,75,5,Berline 5 portes

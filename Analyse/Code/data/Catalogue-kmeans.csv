@@ -1,0 +1,271 @@
+marque,nom,puissance,longueur,nbPlaces,nbPortes,occasion,prix,Type,predicted
+Volvo,S80 T6,272,tres longue,5,5,False,50500,Berline,4.0
+Volvo,S80 T6,272,tres longue,5,5,False,50500,Berline,4.0
+Volvo,S80 T6,272,tres longue,5,5,False,50500,Berline,4.0
+Volvo,S80 T6,272,tres longue,5,5,True,35350,Berline,40
+Volvo,S80 T6,272,tres longue,5,5,True,35350,Berline,40
+Volvo,S80 T6,272,tres longue,5,5,False,50500,Berline,4.0
+Volvo,S80 T6,272,tres longue,5,5,False,50500,Berline,4.0
+Volvo,S80 T6,272,tres longue,5,5,True,35350,Berline,40
+Volvo,S80 T6,272,tres longue,5,5,True,35350,Berline,40
+Volvo,S80 T6,272,tres longue,5,5,True,35350,Berline,40
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,False,27340,Monospace,0.0
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,True,19138,Monospace,50
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,True,19138,Monospace,50
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,False,27340,Monospace,0.0
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,False,27340,Monospace,0.0
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,True,19138,Monospace,50
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,True,19138,Monospace,50
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,True,19138,Monospace,50
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,False,27340,Monospace,0.0
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,False,27340,Monospace,0.0
+Volkswagen,Polo 1.2 6V,55,courte,5,3,True,8540,Compacte,20
+Volkswagen,Polo 1.2 6V,55,courte,5,3,False,12200,Compacte,2.0
+Volkswagen,Polo 1.2 6V,55,courte,5,3,False,12200,Compacte,2.0
+Volkswagen,Polo 1.2 6V,55,courte,5,3,True,8540,Compacte,20
+Volkswagen,Polo 1.2 6V,55,courte,5,3,True,8540,Compacte,20
+Volkswagen,Polo 1.2 6V,55,courte,5,3,False,12200,Compacte,2.0
+Volkswagen,Polo 1.2 6V,55,courte,5,3,True,8540,Compacte,20
+Volkswagen,Polo 1.2 6V,55,courte,5,3,False,12200,Compacte,2.0
+Volkswagen,Polo 1.2 6V,55,courte,5,3,False,12200,Compacte,2.0
+Volkswagen,Polo 1.2 6V,55,courte,5,3,True,8540,Compacte,20
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,True,18641,Citadine,30
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,True,18641,Citadine,30
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,True,18641,Citadine,30
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,True,18641,Citadine,30
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,True,18641,Citadine,30
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,False,26630,Citadine,3.0
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,False,26630,Citadine,3.0
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,False,26630,Citadine,3.0
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,False,26630,Citadine,3.0
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,False,26630,Citadine,3.0
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,True,16029,Berline,30
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,True,16029,Berline,30
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,True,16029,Berline,30
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,True,16029,Berline,30
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,True,16029,Berline,30
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,False,22900,Berline,3.0
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,False,22900,Berline,3.0
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,False,22900,Berline,3.0
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,False,22900,Berline,3.0
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,False,22900,Berline,3.0
+Skoda,Superb 2.8 V6,193,tres longue,5,5,False,31790,Routiere,3.0
+Skoda,Superb 2.8 V6,193,tres longue,5,5,False,31790,Routiere,3.0
+Skoda,Superb 2.8 V6,193,tres longue,5,5,False,31790,Routiere,3.0
+Skoda,Superb 2.8 V6,193,tres longue,5,5,False,31790,Routiere,3.0
+Skoda,Superb 2.8 V6,193,tres longue,5,5,False,31790,Routiere,3.0
+Seat,Toledo 1.6,102,longue,5,5,False,18880,Berline,3.0
+Seat,Toledo 1.6,102,longue,5,5,False,18880,Berline,3.0
+Seat,Toledo 1.6,102,longue,5,5,False,18880,Berline,3.0
+Seat,Toledo 1.6,102,longue,5,5,False,18880,Berline,3.0
+Seat,Toledo 1.6,102,longue,5,5,False,18880,Berline,3.0
+Saab,9.3 1.8T,150,longue,5,5,True,27020,Routiere,30
+Saab,9.3 1.8T,150,longue,5,5,True,27020,Routiere,30
+Saab,9.3 1.8T,150,longue,5,5,True,27020,Routiere,30
+Saab,9.3 1.8T,150,longue,5,5,True,27020,Routiere,30
+Saab,9.3 1.8T,150,longue,5,5,True,27020,Routiere,30
+Saab,9.3 1.8T,150,longue,5,5,False,38600,Routiere,3.0
+Saab,9.3 1.8T,150,longue,5,5,False,38600,Routiere,3.0
+Saab,9.3 1.8T,150,longue,5,5,False,38600,Routiere,3.0
+Saab,9.3 1.8T,150,longue,5,5,False,38600,Routiere,3.0
+Saab,9.3 1.8T,150,longue,5,5,False,38600,Routiere,3.0
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,True,34440,Routiere,40
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,True,34440,Routiere,40
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,True,34440,Routiere,40
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,True,34440,Routiere,40
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,True,34440,Routiere,40
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,False,49200,Routiere,4.0
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,False,49200,Routiere,4.0
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,False,49200,Routiere,4.0
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,False,49200,Routiere,4.0
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,False,49200,Routiere,4.0
+Renault,Megane 2.0 16V,135,moyenne,5,5,True,15644,Compacte,30
+Renault,Megane 2.0 16V,135,moyenne,5,5,True,15644,Compacte,30
+Renault,Megane 2.0 16V,135,moyenne,5,5,True,15644,Compacte,30
+Renault,Megane 2.0 16V,135,moyenne,5,5,True,15644,Compacte,30
+Renault,Megane 2.0 16V,135,moyenne,5,5,True,15644,Compacte,30
+Renault,Megane 2.0 16V,135,moyenne,5,5,False,22350,Compacte,3.0
+Renault,Megane 2.0 16V,135,moyenne,5,5,False,22350,Compacte,3.0
+Renault,Megane 2.0 16V,135,moyenne,5,5,False,22350,Compacte,3.0
+Renault,Megane 2.0 16V,135,moyenne,5,5,False,22350,Compacte,3.0
+Renault,Megane 2.0 16V,135,moyenne,5,5,False,22350,Compacte,3.0
+Renault,Laguna 2.0T,170,longue,5,5,True,19110,Break,30
+Renault,Laguna 2.0T,170,longue,5,5,True,19110,Break,30
+Renault,Laguna 2.0T,170,longue,5,5,True,19110,Break,30
+Renault,Laguna 2.0T,170,longue,5,5,True,19110,Break,30
+Renault,Laguna 2.0T,170,longue,5,5,True,19110,Break,30
+Renault,Laguna 2.0T,170,longue,5,5,False,27300,Break,3.0
+Renault,Laguna 2.0T,170,longue,5,5,False,27300,Break,3.0
+Renault,Laguna 2.0T,170,longue,5,5,False,27300,Break,3.0
+Renault,Laguna 2.0T,170,longue,5,5,False,27300,Break,3.0
+Renault,Laguna 2.0T,170,longue,5,5,False,27300,Break,3.0
+Renault,Espace 2.0T,165,longue,7,5,True,21245,Monospace,50
+Renault,Espace 2.0T,165,longue,7,5,True,21245,Monospace,50
+Renault,Espace 2.0T,165,longue,7,5,True,21245,Monospace,50
+Renault,Espace 2.0T,165,longue,7,5,True,21245,Monospace,50
+Renault,Espace 2.0T,165,longue,7,5,True,21245,Monospace,50
+Renault,Espace 2.0T,165,longue,7,5,False,30350,Monospace,0.0
+Renault,Espace 2.0T,165,longue,7,5,False,30350,Monospace,0.0
+Renault,Espace 2.0T,165,longue,7,5,False,30350,Monospace,0.0
+Renault,Espace 2.0T,165,longue,7,5,False,30350,Monospace,0.0
+Renault,Espace 2.0T,165,longue,7,5,False,30350,Monospace,0.0
+Peugeot,1007 1.4,75,courte,5,5,True,9625,Citadine,20
+Peugeot,1007 1.4,75,courte,5,5,False,13750,Citadine,2.0
+Peugeot,1007 1.4,75,courte,5,5,False,13750,Citadine,2.0
+Peugeot,1007 1.4,75,courte,5,5,True,9625,Citadine,20
+Peugeot,1007 1.4,75,courte,5,5,False,13750,Citadine,2.0
+Peugeot,1007 1.4,75,courte,5,5,True,9625,Citadine,20
+Peugeot,1007 1.4,75,courte,5,5,False,13750,Citadine,2.0
+Peugeot,1007 1.4,75,courte,5,5,True,9625,Citadine,20
+Peugeot,1007 1.4,75,courte,5,5,True,9625,Citadine,20
+Peugeot,1007 1.4,75,courte,5,5,False,13750,Citadine,2.0
+Nissan,Primera 1.6,109,longue,5,5,False,18650,Routiere,3.0
+Nissan,Primera 1.6,109,longue,5,5,False,18650,Routiere,3.0
+Nissan,Primera 1.6,109,longue,5,5,False,18650,Routiere,3.0
+Nissan,Primera 1.6,109,longue,5,5,False,18650,Routiere,3.0
+Nissan,Primera 1.6,109,longue,5,5,False,18650,Routiere,3.0
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,False,30000,Routiere,3.0
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,False,30000,Routiere,3.0
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,False,30000,Routiere,3.0
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,False,30000,Routiere,3.0
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,False,30000,Routiere,3.0
+Nissan,Almera 1.8,115,moyenne,5,5,False,16450,Compacte,2.0
+Nissan,Almera 1.8,115,moyenne,5,5,False,16450,Compacte,2.0
+Nissan,Almera 1.8,115,moyenne,5,5,False,16450,Compacte,2.0
+Nissan,Almera 1.8,115,moyenne,5,5,False,16450,Compacte,2.0
+Nissan,Almera 1.8,115,moyenne,5,5,False,16450,Compacte,2.0
+Mini,Copper 1.6 16V,115,courte,5,5,True,12740,Citadine,20
+Mini,Copper 1.6 16V,115,courte,5,5,True,12740,Citadine,20
+Mini,Copper 1.6 16V,115,courte,5,5,True,12740,Citadine,20
+Mini,Copper 1.6 16V,115,courte,5,5,True,12740,Citadine,20
+Mini,Copper 1.6 16V,115,courte,5,5,True,12740,Citadine,20
+Mini,Copper 1.6 16V,115,courte,5,5,False,18200,Citadine,2.0
+Mini,Copper 1.6 16V,115,courte,5,5,False,18200,Citadine,2.0
+Mini,Copper 1.6 16V,115,courte,5,5,False,18200,Citadine,2.0
+Mini,Copper 1.6 16V,115,courte,5,5,False,18200,Citadine,2.0
+Mini,Copper 1.6 16V,115,courte,5,5,False,18200,Citadine,2.0
+Mercedes,S500,306,tres longue,5,5,True,70910,Limousine,10
+Mercedes,S500,306,tres longue,5,5,True,70910,Limousine,10
+Mercedes,S500,306,tres longue,5,5,True,70910,Limousine,10
+Mercedes,S500,306,tres longue,5,5,True,70910,Limousine,10
+Mercedes,S500,306,tres longue,5,5,False,101300,Limousine,1.0
+Mercedes,S500,306,tres longue,5,5,True,70910,Limousine,10
+Mercedes,S500,306,tres longue,5,5,False,101300,Limousine,1.0
+Mercedes,S500,306,tres longue,5,5,False,101300,Limousine,1.0
+Mercedes,S500,306,tres longue,5,5,False,101300,Limousine,1.0
+Mercedes,S500,306,tres longue,5,5,False,101300,Limousine,1.0
+Mercedes,A200,136,moyenne,5,5,False,25900,Berline,3.0
+Mercedes,A200,136,moyenne,5,5,False,25900,Berline,3.0
+Mercedes,A200,136,moyenne,5,5,True,18130,Berline,30
+Mercedes,A200,136,moyenne,5,5,True,18130,Berline,30
+Mercedes,A200,136,moyenne,5,5,True,18130,Berline,30
+Mercedes,A200,136,moyenne,5,5,False,25900,Berline,3.0
+Mercedes,A200,136,moyenne,5,5,True,18130,Berline,30
+Mercedes,A200,136,moyenne,5,5,True,18130,Berline,30
+Mercedes,A200,136,moyenne,5,5,False,25900,Berline,3.0
+Mercedes,A200,136,moyenne,5,5,False,25900,Berline,3.0
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,False,13500,Berline,2.0
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,True,9450,Berline,20
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,False,13500,Berline,2.0
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,False,13500,Berline,2.0
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,False,13500,Berline,2.0
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,True,9450,Berline,20
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,True,9450,Berline,20
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,False,13500,Berline,2.0
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,True,9450,Berline,20
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,True,9450,Berline,20
+Kia,Picanto 1.1,65,courte,5,5,False,8990,Citadine,2.0
+Kia,Picanto 1.1,65,courte,5,5,False,8990,Citadine,2.0
+Kia,Picanto 1.1,65,courte,5,5,False,8990,Citadine,2.0
+Kia,Picanto 1.1,65,courte,5,5,False,8990,Citadine,2.0
+Kia,Picanto 1.1,65,courte,5,5,False,8990,Citadine,2.0
+Jaguar,X-Type 2.5 V6,197,longue,5,5,False,37100,Berline,3.0
+Jaguar,X-Type 2.5 V6,197,longue,5,5,True,25970,Berline,30
+Jaguar,X-Type 2.5 V6,197,longue,5,5,True,25970,Berline,30
+Jaguar,X-Type 2.5 V6,197,longue,5,5,False,37100,Berline,3.0
+Jaguar,X-Type 2.5 V6,197,longue,5,5,True,25970,Berline,30
+Jaguar,X-Type 2.5 V6,197,longue,5,5,True,25970,Berline,30
+Jaguar,X-Type 2.5 V6,197,longue,5,5,True,25970,Berline,30
+Jaguar,X-Type 2.5 V6,197,longue,5,5,False,37100,Berline,3.0
+Jaguar,X-Type 2.5 V6,197,longue,5,5,False,37100,Berline,3.0
+Jaguar,X-Type 2.5 V6,197,longue,5,5,False,37100,Berline,3.0
+Hyundai,Matrix 1.6,103,longue,7,5,False,15960,Monospace,0.0
+Hyundai,Matrix 1.6,103,longue,7,5,False,15960,Monospace,0.0
+Hyundai,Matrix 1.6,103,longue,7,5,False,15960,Monospace,0.0
+Hyundai,Matrix 1.6,103,longue,7,5,False,15960,Monospace,0.0
+Hyundai,Matrix 1.6,103,longue,7,5,False,15960,Monospace,0.0
+Honda,FR-V 1.7,125,longue,7,5,False,19550,Monospace,0.0
+Honda,FR-V 1.7,125,longue,7,5,False,19550,Monospace,0.0
+Honda,FR-V 1.7,125,longue,7,5,False,19550,Monospace,0.0
+Honda,FR-V 1.7,125,longue,7,5,False,19550,Monospace,0.0
+Honda,FR-V 1.7,125,longue,7,5,False,19550,Monospace,0.0
+Ford,Mondeo 1.8,125,longue,5,5,True,16730,Routiere,30
+Ford,Mondeo 1.8,125,longue,5,5,True,16730,Routiere,30
+Ford,Mondeo 1.8,125,longue,5,5,True,16730,Routiere,30
+Ford,Mondeo 1.8,125,longue,5,5,True,16730,Routiere,30
+Ford,Mondeo 1.8,125,longue,5,5,True,16730,Routiere,30
+Ford,Mondeo 1.8,125,longue,5,5,False,23900,Routiere,3.0
+Ford,Mondeo 1.8,125,longue,5,5,False,23900,Routiere,3.0
+Ford,Mondeo 1.8,125,longue,5,5,False,23900,Routiere,3.0
+Ford,Mondeo 1.8,125,longue,5,5,False,23900,Routiere,3.0
+Ford,Mondeo 1.8,125,longue,5,5,False,23900,Routiere,3.0
+Fiat,Croma 2.2,147,longue,5,5,True,17346,Break,30
+Fiat,Croma 2.2,147,longue,5,5,True,17346,Break,30
+Fiat,Croma 2.2,147,longue,5,5,True,17346,Break,30
+Fiat,Croma 2.2,147,longue,5,5,True,17346,Break,30
+Fiat,Croma 2.2,147,longue,5,5,False,24780,Break,3.0
+Fiat,Croma 2.2,147,longue,5,5,False,24780,Break,3.0
+Fiat,Croma 2.2,147,longue,5,5,True,17346,Break,30
+Fiat,Croma 2.2,147,longue,5,5,False,24780,Break,3.0
+Fiat,Croma 2.2,147,longue,5,5,False,24780,Break,3.0
+Fiat,Croma 2.2,147,longue,5,5,False,24780,Break,3.0
+Daihatsu,Cuore 1.0,58,courte,5,3,False,8850,Citadine,2.0
+Daihatsu,Cuore 1.0,58,courte,5,3,False,8850,Citadine,2.0
+Daihatsu,Cuore 1.0,58,courte,5,3,False,8850,Citadine,2.0
+Daihatsu,Cuore 1.0,58,courte,5,3,False,8850,Citadine,2.0
+Daihatsu,Cuore 1.0,58,courte,5,3,False,8850,Citadine,2.0
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,False,7500,Break,2.0
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,False,7500,Break,2.0
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,False,7500,Break,2.0
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,False,7500,Break,2.0
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,False,7500,Break,2.0
+BMW,M5,507,tres longue,5,5,True,66360,Sport,10
+BMW,M5,507,tres longue,5,5,False,94800,Sport,1.0
+BMW,M5,507,tres longue,5,5,False,94800,Sport,1.0
+BMW,M5,507,tres longue,5,5,False,94800,Sport,1.0
+BMW,M5,507,tres longue,5,5,True,66360,Sport,10
+BMW,M5,507,tres longue,5,5,True,66360,Sport,10
+BMW,M5,507,tres longue,5,5,False,94800,Sport,1.0
+BMW,M5,507,tres longue,5,5,True,66360,Sport,10
+BMW,M5,507,tres longue,5,5,False,94800,Sport,1.0
+BMW,M5,507,tres longue,5,5,True,66360,Sport,10
+BMW,120i,150,moyenne,5,5,True,25060,Berline,30
+BMW,120i,150,moyenne,5,5,False,35800,Berline,3.0
+BMW,120i,150,moyenne,5,5,False,35800,Berline,3.0
+BMW,120i,150,moyenne,5,5,False,35800,Berline,3.0
+BMW,120i,150,moyenne,5,5,False,35800,Berline,3.0
+BMW,120i,150,moyenne,5,5,True,25060,Berline,30
+BMW,120i,150,moyenne,5,5,True,25060,Berline,30
+BMW,120i,150,moyenne,5,5,True,25060,Berline,30
+BMW,120i,150,moyenne,5,5,True,25060,Berline,30
+BMW,120i,150,moyenne,5,5,False,35800,Berline,3.0
+Audi,A3 2.0 FSI,150,moyenne,5,5,True,19950,Berline,30
+Audi,A3 2.0 FSI,150,moyenne,5,5,False,28500,Berline,3.0
+Audi,A3 2.0 FSI,150,moyenne,5,5,False,28500,Berline,3.0
+Audi,A3 2.0 FSI,150,moyenne,5,5,True,19950,Berline,30
+Audi,A3 2.0 FSI,150,moyenne,5,5,False,28500,Berline,3.0
+Audi,A3 2.0 FSI,150,moyenne,5,5,True,19950,Berline,30
+Audi,A3 2.0 FSI,150,moyenne,5,5,True,19950,Berline,30
+Audi,A3 2.0 FSI,150,moyenne,5,5,False,28500,Berline,3.0
+Audi,A3 2.0 FSI,150,moyenne,5,5,False,28500,Berline,3.0
+Audi,A3 2.0 FSI,150,moyenne,5,5,True,19950,Berline,30
+Audi,A2 1.4,75,courte,5,5,True,12817,Compacte,20
+Audi,A2 1.4,75,courte,5,5,False,18310,Compacte,2.0
+Audi,A2 1.4,75,courte,5,5,False,18310,Compacte,2.0
+Audi,A2 1.4,75,courte,5,5,True,12817,Compacte,20
+Audi,A2 1.4,75,courte,5,5,True,12817,Compacte,20
+Audi,A2 1.4,75,courte,5,5,False,18310,Compacte,2.0
+Audi,A2 1.4,75,courte,5,5,False,18310,Compacte,2.0
+Audi,A2 1.4,75,courte,5,5,True,12817,Compacte,20
+Audi,A2 1.4,75,courte,5,5,True,12817,Compacte,20
+Audi,A2 1.4,75,courte,5,5,False,18310,Compacte,2.0

@@ -1,0 +1,271 @@
+marque,nom,puissance,longueur,nbPlaces,nbPortes,couleur,occasion,prix,Type,predicted
+Volvo,S80 T6,272,tres longue,5,5,blanc,False,50500,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,noir,False,50500,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,rouge,False,50500,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,gris,True,35350,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,bleu,True,35350,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,gris,False,50500,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,bleu,False,50500,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,rouge,True,35350,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,blanc,True,35350,Berline,Route 2eme gamme
+Volvo,S80 T6,272,tres longue,5,5,noir,True,35350,Berline,Route 2eme gamme
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,rouge,False,27340,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,gris,True,19138,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,bleu,True,19138,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,gris,False,27340,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,bleu,False,27340,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,blanc,True,19138,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,noir,True,19138,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,rouge,True,19138,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,blanc,False,27340,Monospace,Monospace
+Volkswagen,Touran 2.0 FSI,150,longue,7,5,noir,False,27340,Monospace,Monospace
+Volkswagen,Polo 1.2 6V,55,courte,5,3,blanc,True,8540,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,blanc,False,12200,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,noir,False,12200,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,noir,True,8540,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,bleu,True,8540,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,bleu,False,12200,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,rouge,True,8540,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,rouge,False,12200,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,gris,False,12200,Compacte,Ville/courte - 1ere gamme
+Volkswagen,Polo 1.2 6V,55,courte,5,3,gris,True,8540,Compacte,Ville/courte - 1ere gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,blanc,True,18641,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,noir,True,18641,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,rouge,True,18641,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,gris,True,18641,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,bleu,True,18641,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,rouge,False,26630,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,gris,False,26630,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,bleu,False,26630,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,blanc,False,26630,Citadine,Ville/courte - 2eme gamme
+Volkswagen,New Beatle 1.8,110,moyenne,5,5,noir,False,26630,Citadine,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,rouge,True,16029,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,gris,True,16029,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,bleu,True,16029,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,blanc,True,16029,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,noir,True,16029,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,blanc,False,22900,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,noir,False,22900,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,bleu,False,22900,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,rouge,False,22900,Berline,Ville/courte - 2eme gamme
+Volkswagen,Golf 2.0 FSI,150,moyenne,5,5,gris,False,22900,Berline,Ville/courte - 2eme gamme
+Skoda,Superb 2.8 V6,193,tres longue,5,5,rouge,False,31790,Routiere,Route 2eme gamme
+Skoda,Superb 2.8 V6,193,tres longue,5,5,gris,False,31790,Routiere,Route 2eme gamme
+Skoda,Superb 2.8 V6,193,tres longue,5,5,bleu,False,31790,Routiere,Route 2eme gamme
+Skoda,Superb 2.8 V6,193,tres longue,5,5,noir,False,31790,Routiere,Route 2eme gamme
+Skoda,Superb 2.8 V6,193,tres longue,5,5,blanc,False,31790,Routiere,Route 2eme gamme
+Seat,Toledo 1.6,102,longue,5,5,blanc,False,18880,Berline,Route 1ere gamme
+Seat,Toledo 1.6,102,longue,5,5,noir,False,18880,Berline,Route 1ere gamme
+Seat,Toledo 1.6,102,longue,5,5,rouge,False,18880,Berline,Route 1ere gamme
+Seat,Toledo 1.6,102,longue,5,5,gris,False,18880,Berline,Route 1ere gamme
+Seat,Toledo 1.6,102,longue,5,5,bleu,False,18880,Berline,Route 1ere gamme
+Saab,9.3 1.8T,150,longue,5,5,blanc,True,27020,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,rouge,True,27020,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,gris,True,27020,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,bleu,True,27020,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,noir,True,27020,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,gris,False,38600,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,bleu,False,38600,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,noir,False,38600,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,rouge,False,38600,Routiere,Route 2eme gamme
+Saab,9.3 1.8T,150,longue,5,5,blanc,False,38600,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,gris,True,34440,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,noir,True,34440,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,bleu,True,34440,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,rouge,True,34440,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,blanc,True,34440,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,gris,False,49200,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,bleu,False,49200,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,blanc,False,49200,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,noir,False,49200,Routiere,Route 2eme gamme
+Renault,Vel Satis 3.5 V6,245,tres longue,5,5,rouge,False,49200,Routiere,Route 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,gris,True,15644,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,bleu,True,15644,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,rouge,True,15644,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,blanc,True,15644,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,noir,True,15644,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,gris,False,22350,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,bleu,False,22350,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,blanc,False,22350,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,noir,False,22350,Compacte,Ville/courte - 2eme gamme
+Renault,Megane 2.0 16V,135,moyenne,5,5,rouge,False,22350,Compacte,Ville/courte - 2eme gamme
+Renault,Laguna 2.0T,170,longue,5,5,rouge,True,19110,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,gris,True,19110,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,bleu,True,19110,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,blanc,True,19110,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,noir,True,19110,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,gris,False,27300,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,bleu,False,27300,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,rouge,False,27300,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,noir,False,27300,Break,Route 1ere gamme
+Renault,Laguna 2.0T,170,longue,5,5,blanc,False,27300,Break,Route 1ere gamme
+Renault,Espace 2.0T,165,longue,7,5,gris,True,21245,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,bleu,True,21245,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,noir,True,21245,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,rouge,True,21245,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,blanc,True,21245,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,noir,False,30350,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,bleu,False,30350,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,rouge,False,30350,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,blanc,False,30350,Monospace,Monospace
+Renault,Espace 2.0T,165,longue,7,5,gris,False,30350,Monospace,Monospace
+Peugeot,1007 1.4,75,courte,5,5,rouge,True,9625,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,noir,False,13750,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,gris,False,13750,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,blanc,True,9625,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,rouge,False,13750,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,gris,True,9625,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,blanc,False,13750,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,bleu,True,9625,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,noir,True,9625,Citadine,Ville/courte - 1ere gamme
+Peugeot,1007 1.4,75,courte,5,5,bleu,False,13750,Citadine,Ville/courte - 1ere gamme
+Nissan,Primera 1.6,109,longue,5,5,noir,False,18650,Routiere,Route 1ere gamme
+Nissan,Primera 1.6,109,longue,5,5,bleu,False,18650,Routiere,Route 1ere gamme
+Nissan,Primera 1.6,109,longue,5,5,rouge,False,18650,Routiere,Route 1ere gamme
+Nissan,Primera 1.6,109,longue,5,5,gris,False,18650,Routiere,Route 1ere gamme
+Nissan,Primera 1.6,109,longue,5,5,blanc,False,18650,Routiere,Route 1ere gamme
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,noir,False,30000,Routiere,Route 2eme gamme
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,gris,False,30000,Routiere,Route 2eme gamme
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,bleu,False,30000,Routiere,Route 2eme gamme
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,rouge,False,30000,Routiere,Route 2eme gamme
+Nissan,Maxima 3.0 V6,200,tres longue,5,5,blanc,False,30000,Routiere,Route 2eme gamme
+Nissan,Almera 1.8,115,moyenne,5,5,gris,False,16450,Compacte,Ville/courte - 1ere gamme
+Nissan,Almera 1.8,115,moyenne,5,5,bleu,False,16450,Compacte,Ville/courte - 1ere gamme
+Nissan,Almera 1.8,115,moyenne,5,5,noir,False,16450,Compacte,Ville/courte - 1ere gamme
+Nissan,Almera 1.8,115,moyenne,5,5,rouge,False,16450,Compacte,Ville/courte - 1ere gamme
+Nissan,Almera 1.8,115,moyenne,5,5,blanc,False,16450,Compacte,Ville/courte - 1ere gamme
+Mini,Copper 1.6 16V,115,courte,5,5,gris,True,12740,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,bleu,True,12740,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,rouge,True,12740,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,noir,True,12740,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,blanc,True,12740,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,gris,False,18200,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,bleu,False,18200,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,rouge,False,18200,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,noir,False,18200,Citadine,Ville/courte - 2eme gamme
+Mini,Copper 1.6 16V,115,courte,5,5,blanc,False,18200,Citadine,Ville/courte - 2eme gamme
+Mercedes,S500,306,tres longue,5,5,noir,True,70910,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,bleu,True,70910,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,rouge,True,70910,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,blanc,True,70910,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,bleu,False,101300,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,gris,True,70910,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,noir,False,101300,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,blanc,False,101300,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,rouge,False,101300,Limousine,Haut de gamme
+Mercedes,S500,306,tres longue,5,5,gris,False,101300,Limousine,Haut de gamme
+Mercedes,A200,136,moyenne,5,5,blanc,False,25900,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,noir,False,25900,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,blanc,True,18130,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,rouge,True,18130,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,noir,True,18130,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,rouge,False,25900,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,bleu,True,18130,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,gris,True,18130,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,gris,False,25900,Berline,Ville/courte - 2eme gamme
+Mercedes,A200,136,moyenne,5,5,bleu,False,25900,Berline,Ville/courte - 2eme gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,rouge,False,13500,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,bleu,True,9450,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,gris,False,13500,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,bleu,False,13500,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,noir,False,13500,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,rouge,True,9450,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,gris,True,9450,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,blanc,False,13500,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,blanc,True,9450,Berline,Ville/courte - 1ere gamme
+Lancia,Ypsilon 1.4 16V,90,courte,5,3,noir,True,9450,Berline,Ville/courte - 1ere gamme
+Kia,Picanto 1.1,65,courte,5,5,blanc,False,8990,Citadine,Ville/courte - 1ere gamme
+Kia,Picanto 1.1,65,courte,5,5,gris,False,8990,Citadine,Ville/courte - 1ere gamme
+Kia,Picanto 1.1,65,courte,5,5,noir,False,8990,Citadine,Ville/courte - 1ere gamme
+Kia,Picanto 1.1,65,courte,5,5,rouge,False,8990,Citadine,Ville/courte - 1ere gamme
+Kia,Picanto 1.1,65,courte,5,5,bleu,False,8990,Citadine,Ville/courte - 1ere gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,gris,False,37100,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,blanc,True,25970,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,rouge,True,25970,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,rouge,False,37100,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,bleu,True,25970,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,gris,True,25970,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,noir,True,25970,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,noir,False,37100,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,blanc,False,37100,Berline,Route 2eme gamme
+Jaguar,X-Type 2.5 V6,197,longue,5,5,bleu,False,37100,Berline,Route 2eme gamme
+Hyundai,Matrix 1.6,103,longue,7,5,bleu,False,15960,Monospace,Monospace
+Hyundai,Matrix 1.6,103,longue,7,5,blanc,False,15960,Monospace,Monospace
+Hyundai,Matrix 1.6,103,longue,7,5,gris,False,15960,Monospace,Monospace
+Hyundai,Matrix 1.6,103,longue,7,5,noir,False,15960,Monospace,Monospace
+Hyundai,Matrix 1.6,103,longue,7,5,rouge,False,15960,Monospace,Monospace
+Honda,FR-V 1.7,125,longue,7,5,noir,False,19550,Monospace,Monospace
+Honda,FR-V 1.7,125,longue,7,5,bleu,False,19550,Monospace,Monospace
+Honda,FR-V 1.7,125,longue,7,5,gris,False,19550,Monospace,Monospace
+Honda,FR-V 1.7,125,longue,7,5,blanc,False,19550,Monospace,Monospace
+Honda,FR-V 1.7,125,longue,7,5,rouge,False,19550,Monospace,Monospace
+Ford,Mondeo 1.8,125,longue,5,5,blanc,True,16730,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,gris,True,16730,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,bleu,True,16730,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,noir,True,16730,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,rouge,True,16730,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,bleu,False,23900,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,blanc,False,23900,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,noir,False,23900,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,gris,False,23900,Routiere,Route 1ere gamme
+Ford,Mondeo 1.8,125,longue,5,5,rouge,False,23900,Routiere,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,blanc,True,17346,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,bleu,True,17346,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,rouge,True,17346,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,gris,True,17346,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,rouge,False,24780,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,bleu,False,24780,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,noir,True,17346,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,blanc,False,24780,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,noir,False,24780,Break,Route 1ere gamme
+Fiat,Croma 2.2,147,longue,5,5,gris,False,24780,Break,Route 1ere gamme
+Daihatsu,Cuore 1.0,58,courte,5,3,noir,False,8850,Citadine,Ville/courte - 1ere gamme
+Daihatsu,Cuore 1.0,58,courte,5,3,blanc,False,8850,Citadine,Ville/courte - 1ere gamme
+Daihatsu,Cuore 1.0,58,courte,5,3,rouge,False,8850,Citadine,Ville/courte - 1ere gamme
+Daihatsu,Cuore 1.0,58,courte,5,3,bleu,False,8850,Citadine,Ville/courte - 1ere gamme
+Daihatsu,Cuore 1.0,58,courte,5,3,gris,False,8850,Citadine,Ville/courte - 1ere gamme
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,blanc,False,7500,Break,Ville/courte - 1ere gamme
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,rouge,False,7500,Break,Ville/courte - 1ere gamme
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,noir,False,7500,Break,Ville/courte - 1ere gamme
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,gris,False,7500,Break,Ville/courte - 1ere gamme
+Dacia,Logan 1.6 MPI,90,moyenne,5,5,bleu,False,7500,Break,Ville/courte - 1ere gamme
+BMW,M5,507,tres longue,5,5,bleu,True,66360,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,gris,False,94800,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,blanc,False,94800,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,noir,False,94800,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,rouge,True,66360,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,blanc,True,66360,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,bleu,False,94800,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,gris,True,66360,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,rouge,False,94800,Sport,Haut de gamme
+BMW,M5,507,tres longue,5,5,noir,True,66360,Sport,Haut de gamme
+BMW,120i,150,moyenne,5,5,rouge,True,25060,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,bleu,False,35800,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,blanc,False,35800,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,gris,False,35800,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,rouge,False,35800,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,bleu,True,25060,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,gris,True,25060,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,noir,True,25060,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,blanc,True,25060,Berline,Ville/courte - 2eme gamme
+BMW,120i,150,moyenne,5,5,noir,False,35800,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,noir,True,19950,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,noir,False,28500,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,rouge,False,28500,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,gris,True,19950,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,blanc,False,28500,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,blanc,True,19950,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,bleu,True,19950,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,bleu,False,28500,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,gris,False,28500,Berline,Ville/courte - 2eme gamme
+Audi,A3 2.0 FSI,150,moyenne,5,5,rouge,True,19950,Berline,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,noir,True,12817,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,bleu,False,18310,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,gris,False,18310,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,bleu,True,12817,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,gris,True,12817,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,noir,False,18310,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,rouge,False,18310,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,blanc,True,12817,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,rouge,True,12817,Compacte,Ville/courte - 2eme gamme
+Audi,A2 1.4,75,courte,5,5,blanc,False,18310,Compacte,Ville/courte - 2eme gamme
